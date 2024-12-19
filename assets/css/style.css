@@ -29,6 +29,17 @@ h6 {
     border-radius: 0;
 }
 
+.custom_button {
+    background-color: #1f7798;
+    border: 1px solid #1f7798;
+}
+
+.custom_button:hover,
+.custom_button:active {
+    background-color: #1d6d8a;
+    border: 1px solid #1d6d8a;
+}
+
 #hero {
     background: #bdbcde url('../images/background.webp') no-repeat 50% 70% / cover;
     min-height: 500px;
